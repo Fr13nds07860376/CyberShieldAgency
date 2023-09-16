@@ -564,3 +564,18 @@ header.sticky{
 		width: 310px;
 	}
 }
+
+/* Estilos para pantallas más pequeñas, como dispositivos móviles */
+@media screen and (max-width: 768px) {
+    /* Agrega estilos específicos para dispositivos móviles aquí */
+    header {
+        padding: 16px 3%;
+    }
+
+    /* Otros estilos móviles aquí */
+}
+
+/* Estilos para pantallas medianas y grandes */
+@media screen and (min-width: 769px) {
+    /* Estilos para pantallas medianas y grandes aquí */
+}
